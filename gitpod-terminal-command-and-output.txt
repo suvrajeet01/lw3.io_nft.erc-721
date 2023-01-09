@@ -674,3 +674,186 @@ nothing to commit, working tree clean
 
 
 
+
+
+
+
+
+➜  NFT-Tutorial git:(trunk) ✗ cd ..
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        NFT-Tutorial/
+        gitpod-terminal-command-and-output.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ git add .
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ git commit -m "NFTee"
+[trunk 829441b] NFTee
+ 10 files changed, 22317 insertions(+)
+ create mode 100644 NFT-Tutorial/.gitignore
+ create mode 100644 NFT-Tutorial/NFTee.sol
+ create mode 100644 NFT-Tutorial/README.md
+ create mode 100644 NFT-Tutorial/contracts/Lock.sol
+ create mode 100644 NFT-Tutorial/hardhat.config.js
+ create mode 100644 NFT-Tutorial/package-lock.json
+ create mode 100644 NFT-Tutorial/package.json
+ create mode 100644 NFT-Tutorial/scripts/deploy.js
+ create mode 100644 NFT-Tutorial/test/Lock.js
+ create mode 100644 gitpod-terminal-command-and-output.txt
+➜  lw3.io_nft.erc-721 git:(trunk) git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+➜  lw3.io_nft.erc-721 git:(trunk) git push -f origin trunk
+remote: Permission to suvrajeet01/lw3.io_nft.erc-721.git denied to suvrajeet01.
+fatal: unable to access 'https://github.com/suvrajeet01/lw3.io_nft.erc-721.git/': The requested URL returned error: 403
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ 
+
+
+
+open access control from the prompt of gitpod
+click the 3-dots menu of the running instance
+click edit Permissions
+check mark public_repo
+click update Permissions
+
+
+
+➜  NFT-Tutorial git:(trunk) ✗ cd ..
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        NFT-Tutorial/
+        gitpod-terminal-command-and-output.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ git add .
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ git commit -m "NFTee"
+[trunk 829441b] NFTee
+ 10 files changed, 22317 insertions(+)
+ create mode 100644 NFT-Tutorial/.gitignore
+ create mode 100644 NFT-Tutorial/NFTee.sol
+ create mode 100644 NFT-Tutorial/README.md
+ create mode 100644 NFT-Tutorial/contracts/Lock.sol
+ create mode 100644 NFT-Tutorial/hardhat.config.js
+ create mode 100644 NFT-Tutorial/package-lock.json
+ create mode 100644 NFT-Tutorial/package.json
+ create mode 100644 NFT-Tutorial/scripts/deploy.js
+ create mode 100644 NFT-Tutorial/test/Lock.js
+ create mode 100644 gitpod-terminal-command-and-output.txt
+➜  lw3.io_nft.erc-721 git:(trunk) git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+➜  lw3.io_nft.erc-721 git:(trunk) git push -f origin trunk
+remote: Permission to suvrajeet01/lw3.io_nft.erc-721.git denied to suvrajeet01.
+fatal: unable to access 'https://github.com/suvrajeet01/lw3.io_nft.erc-721.git/': The requested URL returned error: 403
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ git push -f origin trunk
+remote: Permission to suvrajeet01/lw3.io_nft.erc-721.git denied to suvrajeet01.
+fatal: unable to access 'https://github.com/suvrajeet01/lw3.io_nft.erc-721.git/': The requested URL returned error: 403
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   gitpod-terminal-command-and-output.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  lw3.io_nft.erc-721 git:(trunk) ✗    
+
+
+
+
+
+➜  NFT-Tutorial git:(trunk) ✗ cd ..
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        NFT-Tutorial/
+        gitpod-terminal-command-and-output.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ git add .
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ git commit -m "NFTee"
+[trunk 829441b] NFTee
+ 10 files changed, 22317 insertions(+)
+ create mode 100644 NFT-Tutorial/.gitignore
+ create mode 100644 NFT-Tutorial/NFTee.sol
+ create mode 100644 NFT-Tutorial/README.md
+ create mode 100644 NFT-Tutorial/contracts/Lock.sol
+ create mode 100644 NFT-Tutorial/hardhat.config.js
+ create mode 100644 NFT-Tutorial/package-lock.json
+ create mode 100644 NFT-Tutorial/package.json
+ create mode 100644 NFT-Tutorial/scripts/deploy.js
+ create mode 100644 NFT-Tutorial/test/Lock.js
+ create mode 100644 gitpod-terminal-command-and-output.txt
+➜  lw3.io_nft.erc-721 git:(trunk) git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+➜  lw3.io_nft.erc-721 git:(trunk) git push -f origin trunk
+remote: Permission to suvrajeet01/lw3.io_nft.erc-721.git denied to suvrajeet01.
+fatal: unable to access 'https://github.com/suvrajeet01/lw3.io_nft.erc-721.git/': The requested URL returned error: 403
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ git push -f origin trunk
+remote: Permission to suvrajeet01/lw3.io_nft.erc-721.git denied to suvrajeet01.
+fatal: unable to access 'https://github.com/suvrajeet01/lw3.io_nft.erc-721.git/': The requested URL returned error: 403
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   gitpod-terminal-command-and-output.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ git add .
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   gitpod-terminal-command-and-output.txt
+
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ git commit -m "terminal command outputs"
+[trunk 3e784cd] terminal command outputs
+ 1 file changed, 242 insertions(+)
+➜  lw3.io_nft.erc-721 git:(trunk) git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+➜  lw3.io_nft.erc-721 git:(trunk) git push -f origin trunk
+Enumerating objects: 20, done.
+Counting objects: 100% (20/20), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (19/19), 212.33 KiB | 6.85 MiB/s, done.
+Total 19 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/suvrajeet01/lw3.io_nft.erc-721.git
+   c56ac0a..3e784cd  trunk -> trunk
+➜  lw3.io_nft.erc-721 git:(trunk) 
