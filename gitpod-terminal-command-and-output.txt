@@ -857,3 +857,573 @@ remote: Resolving deltas: 100% (2/2), done.
 To https://github.com/suvrajeet01/lw3.io_nft.erc-721.git
    c56ac0a..3e784cd  trunk -> trunk
 ➜  lw3.io_nft.erc-721 git:(trunk) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+➜  NFT-Tutorial git:(trunk) ✗ cd ..
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        NFT-Tutorial/
+        gitpod-terminal-command-and-output.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ git add .
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ git commit -m "NFTee"
+[trunk 829441b] NFTee
+ 10 files changed, 22317 insertions(+)
+ create mode 100644 NFT-Tutorial/.gitignore
+ create mode 100644 NFT-Tutorial/NFTee.sol
+ create mode 100644 NFT-Tutorial/README.md
+ create mode 100644 NFT-Tutorial/contracts/Lock.sol
+ create mode 100644 NFT-Tutorial/hardhat.config.js
+ create mode 100644 NFT-Tutorial/package-lock.json
+ create mode 100644 NFT-Tutorial/package.json
+ create mode 100644 NFT-Tutorial/scripts/deploy.js
+ create mode 100644 NFT-Tutorial/test/Lock.js
+ create mode 100644 gitpod-terminal-command-and-output.txt
+➜  lw3.io_nft.erc-721 git:(trunk) git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+➜  lw3.io_nft.erc-721 git:(trunk) git push -f origin trunk
+remote: Permission to suvrajeet01/lw3.io_nft.erc-721.git denied to suvrajeet01.
+fatal: unable to access 'https://github.com/suvrajeet01/lw3.io_nft.erc-721.git/': The requested URL returned error: 403
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ git push -f origin trunk
+remote: Permission to suvrajeet01/lw3.io_nft.erc-721.git denied to suvrajeet01.
+fatal: unable to access 'https://github.com/suvrajeet01/lw3.io_nft.erc-721.git/': The requested URL returned error: 403
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   gitpod-terminal-command-and-output.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ git add .
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   gitpod-terminal-command-and-output.txt
+
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ git commit -m "terminal command outputs"
+[trunk 3e784cd] terminal command outputs
+ 1 file changed, 242 insertions(+)
+➜  lw3.io_nft.erc-721 git:(trunk) git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+➜  lw3.io_nft.erc-721 git:(trunk) git push -f origin trunk
+Enumerating objects: 20, done.
+Counting objects: 100% (20/20), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (19/19), 212.33 KiB | 6.85 MiB/s, done.
+Total 19 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/suvrajeet01/lw3.io_nft.erc-721.git
+   c56ac0a..3e784cd  trunk -> trunk
+➜  lw3.io_nft.erc-721 git:(trunk) git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+nothing to commit, working tree clean
+➜  lw3.io_nft.erc-721 git:(trunk) git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   gitpod-terminal-command-and-output.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ git add .                               
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ git commit -m "terminal command outputs"
+[trunk cce6b7a] terminal command outputs
+ 1 file changed, 183 insertions(+)
+➜  lw3.io_nft.erc-721 git:(trunk) git status                              
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+➜  lw3.io_nft.erc-721 git:(trunk) git push -f origin trunk                
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1001 bytes | 1001.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/suvrajeet01/lw3.io_nft.erc-721.git
+   3e784cd..cce6b7a  trunk -> trunk
+➜  lw3.io_nft.erc-721 git:(trunk) cd NFT-Tutorial 
+➜  NFT-Tutorial git:(trunk) npm init --yes
+Wrote to /workspace/lw3.io_nft.erc-721/NFT-Tutorial/package.json:
+
+{
+  "name": "nft-tut",
+  "version": "1.0.0",
+  "description": "This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "hardhat": "^2.12.5"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.0",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.3",
+    "request": "^2.88.2"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
+
+
+➜  NFT-Tutorial git:(trunk) ✗ npm install --save-dev hardhat @nomicfoundation/hardhat-toolbox
+
+up to date, audited 955 packages in 6s
+
+136 packages are looking for funding
+  run `npm fund` for details
+
+12 vulnerabilities (5 moderate, 4 high, 3 critical)
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+➜  NFT-Tutorial git:(trunk) ✗ npx hardhat
+Hardhat version 2.12.5
+
+Usage: hardhat [GLOBAL OPTIONS] <TASK> [TASK OPTIONS]
+
+GLOBAL OPTIONS:
+
+  --config              A Hardhat config file. 
+  --emoji               Use emoji in messages. 
+  --flamegraph          Generate a flamegraph of your Hardhat tasks 
+  --help                Shows this message, or a task's help if its name is provided 
+  --max-memory          The maximum amount of memory that Hardhat can use. 
+  --network             The network to connect to. 
+  --show-stack-traces   Show stack traces (always enabled on CI servers). 
+  --tsconfig            A TypeScript config file. 
+  --typecheck           Enable TypeScript type-checking of your scripts/tests 
+  --verbose             Enables Hardhat verbose logging 
+  --version             Shows hardhat's version. 
+
+
+AVAILABLE TASKS:
+
+  check                 Check whatever you need
+  clean                 Clears the cache and deletes all artifacts
+  compile               Compiles the entire project, building all artifacts
+  console               Opens a hardhat console
+  coverage              Generates a code coverage report for tests
+  flatten               Flattens and prints contracts and their dependencies
+  gas-reporter:merge
+  help                  Prints this message
+  node                  Starts a JSON-RPC server on top of Hardhat Network
+  run                   Runs a user-defined script after compiling the project
+  test                  Runs mocha tests
+  typechain             Generate Typechain typings for compiled contracts
+  verify                Verifies contract on Etherscan
+
+To get help for a specific task run: npx hardhat help [task]
+
+➜  NFT-Tutorial git:(trunk) ✗ npm install @openzeppelin/contracts
+
+up to date, audited 955 packages in 2s
+
+136 packages are looking for funding
+  run `npm fund` for details
+
+12 vulnerabilities (5 moderate, 4 high, 3 critical)
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+➜  NFT-Tutorial git:(trunk) ✗ npx hardhat compile     
+
+Nothing to compile
+➜  NFT-Tutorial git:(trunk) ✗ npm install dotenv
+
+up to date, audited 955 packages in 2s
+
+136 packages are looking for funding
+  run `npm fund` for details
+
+12 vulnerabilities (5 moderate, 4 high, 3 critical)
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+➜  NFT-Tutorial git:(trunk) ✗ npx hardhat run scripts/deploy.js --network goerli
+HardhatError: HH700: Artifact for contract "NFTee" not found. 
+    at Artifacts._handleWrongArtifactForContractName (/workspace/lw3.io_nft.erc-721/NFT-Tutorial/node_modules/hardhat/src/internal/artifacts.ts:702:11)
+    at Artifacts._getArtifactPathFromFiles (/workspace/lw3.io_nft.erc-721/NFT-Tutorial/node_modules/hardhat/src/internal/artifacts.ts:827:19)
+    at Artifacts._getArtifactPath (/workspace/lw3.io_nft.erc-721/NFT-Tutorial/node_modules/hardhat/src/internal/artifacts.ts:507:21)
+    at Artifacts.readArtifact (/workspace/lw3.io_nft.erc-721/NFT-Tutorial/node_modules/hardhat/src/internal/artifacts.ts:71:26)
+    at getContractFactory (/workspace/lw3.io_nft.erc-721/NFT-Tutorial/node_modules/@nomiclabs/hardhat-ethers/src/internal/helpers.ts:99:22)
+    at main (/workspace/lw3.io_nft.erc-721/NFT-Tutorial/scripts/deploy.js:9:23)
+➜  NFT-Tutorial git:(trunk) ✗ npx hardhat run scripts/deploy.js --network rinkeby
+Error HH100: Network rinkeby doesn't exist
+
+HardhatError: HH100: Network rinkeby doesn't exist
+    at new Environment (/workspace/lw3.io_nft.erc-721/NFT-Tutorial/node_modules/hardhat/src/internal/core/runtime-environment.ts:83:13)
+    at main (/workspace/lw3.io_nft.erc-721/NFT-Tutorial/node_modules/hardhat/src/internal/cli/cli.ts:262:17)
+➜  NFT-Tutorial git:(trunk) ✗ npx hardhat run scripts/deploy.js --network goerli 
+HardhatError: HH700: Artifact for contract "NFTee" not found. 
+    at Artifacts._handleWrongArtifactForContractName (/workspace/lw3.io_nft.erc-721/NFT-Tutorial/node_modules/hardhat/src/internal/artifacts.ts:702:11)
+    at Artifacts._getArtifactPathFromFiles (/workspace/lw3.io_nft.erc-721/NFT-Tutorial/node_modules/hardhat/src/internal/artifacts.ts:827:19)
+    at Artifacts._getArtifactPath (/workspace/lw3.io_nft.erc-721/NFT-Tutorial/node_modules/hardhat/src/internal/artifacts.ts:507:21)
+    at Artifacts.readArtifact (/workspace/lw3.io_nft.erc-721/NFT-Tutorial/node_modules/hardhat/src/internal/artifacts.ts:71:26)
+    at getContractFactory (/workspace/lw3.io_nft.erc-721/NFT-Tutorial/node_modules/@nomiclabs/hardhat-ethers/src/internal/helpers.ts:99:22)
+    at main (/workspace/lw3.io_nft.erc-721/NFT-Tutorial/scripts/deploy.js:9:23)
+➜  NFT-Tutorial git:(trunk) ✗ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+➜  NFT-Tutorial git:(trunk) ✗ cd ..
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        NFT-Tutorial/
+        gitpod-terminal-command-and-output.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ git add .
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ git commit -m "NFTee"
+[trunk 829441b] NFTee
+ 10 files changed, 22317 insertions(+)
+ create mode 100644 NFT-Tutorial/.gitignore
+ create mode 100644 NFT-Tutorial/NFTee.sol
+ create mode 100644 NFT-Tutorial/README.md
+ create mode 100644 NFT-Tutorial/contracts/Lock.sol
+ create mode 100644 NFT-Tutorial/hardhat.config.js
+ create mode 100644 NFT-Tutorial/package-lock.json
+ create mode 100644 NFT-Tutorial/package.json
+ create mode 100644 NFT-Tutorial/scripts/deploy.js
+ create mode 100644 NFT-Tutorial/test/Lock.js
+ create mode 100644 gitpod-terminal-command-and-output.txt
+➜  lw3.io_nft.erc-721 git:(trunk) git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+➜  lw3.io_nft.erc-721 git:(trunk) git push -f origin trunk
+remote: Permission to suvrajeet01/lw3.io_nft.erc-721.git denied to suvrajeet01.
+fatal: unable to access 'https://github.com/suvrajeet01/lw3.io_nft.erc-721.git/': The requested URL returned error: 403
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ git push -f origin trunk
+remote: Permission to suvrajeet01/lw3.io_nft.erc-721.git denied to suvrajeet01.
+fatal: unable to access 'https://github.com/suvrajeet01/lw3.io_nft.erc-721.git/': The requested URL returned error: 403
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   gitpod-terminal-command-and-output.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ git add .
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   gitpod-terminal-command-and-output.txt
+
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ git commit -m "terminal command outputs"
+[trunk 3e784cd] terminal command outputs
+ 1 file changed, 242 insertions(+)
+➜  lw3.io_nft.erc-721 git:(trunk) git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+➜  lw3.io_nft.erc-721 git:(trunk) git push -f origin trunk
+Enumerating objects: 20, done.
+Counting objects: 100% (20/20), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (19/19), 212.33 KiB | 6.85 MiB/s, done.
+Total 19 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/suvrajeet01/lw3.io_nft.erc-721.git
+   c56ac0a..3e784cd  trunk -> trunk
+➜  lw3.io_nft.erc-721 git:(trunk) git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+nothing to commit, working tree clean
+➜  lw3.io_nft.erc-721 git:(trunk) git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   gitpod-terminal-command-and-output.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ git add .                               
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ git commit -m "terminal command outputs"
+[trunk cce6b7a] terminal command outputs
+ 1 file changed, 183 insertions(+)
+➜  lw3.io_nft.erc-721 git:(trunk) git status                              
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+➜  lw3.io_nft.erc-721 git:(trunk) git push -f origin trunk                
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1001 bytes | 1001.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/suvrajeet01/lw3.io_nft.erc-721.git
+   3e784cd..cce6b7a  trunk -> trunk
+➜  lw3.io_nft.erc-721 git:(trunk) cd NFT-Tutorial 
+➜  NFT-Tutorial git:(trunk) npm init --yes
+Wrote to /workspace/lw3.io_nft.erc-721/NFT-Tutorial/package.json:
+
+{
+  "name": "nft-tut",
+  "version": "1.0.0",
+  "description": "This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "hardhat": "^2.12.5"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.0",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.3",
+    "request": "^2.88.2"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
+
+
+➜  NFT-Tutorial git:(trunk) ✗ npm install --save-dev hardhat @nomicfoundation/hardhat-toolbox
+
+up to date, audited 955 packages in 6s
+
+136 packages are looking for funding
+  run `npm fund` for details
+
+12 vulnerabilities (5 moderate, 4 high, 3 critical)
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+➜  NFT-Tutorial git:(trunk) ✗ npx hardhat
+Hardhat version 2.12.5
+
+Usage: hardhat [GLOBAL OPTIONS] <TASK> [TASK OPTIONS]
+
+GLOBAL OPTIONS:
+
+  --config              A Hardhat config file. 
+  --emoji               Use emoji in messages. 
+  --flamegraph          Generate a flamegraph of your Hardhat tasks 
+  --help                Shows this message, or a task's help if its name is provided 
+  --max-memory          The maximum amount of memory that Hardhat can use. 
+  --network             The network to connect to. 
+  --show-stack-traces   Show stack traces (always enabled on CI servers). 
+  --tsconfig            A TypeScript config file. 
+  --typecheck           Enable TypeScript type-checking of your scripts/tests 
+  --verbose             Enables Hardhat verbose logging 
+  --version             Shows hardhat's version. 
+
+
+AVAILABLE TASKS:
+
+  check                 Check whatever you need
+  clean                 Clears the cache and deletes all artifacts
+  compile               Compiles the entire project, building all artifacts
+  console               Opens a hardhat console
+  coverage              Generates a code coverage report for tests
+  flatten               Flattens and prints contracts and their dependencies
+  gas-reporter:merge
+  help                  Prints this message
+  node                  Starts a JSON-RPC server on top of Hardhat Network
+  run                   Runs a user-defined script after compiling the project
+  test                  Runs mocha tests
+  typechain             Generate Typechain typings for compiled contracts
+  verify                Verifies contract on Etherscan
+
+To get help for a specific task run: npx hardhat help [task]
+
+➜  NFT-Tutorial git:(trunk) ✗ npm install @openzeppelin/contracts
+
+up to date, audited 955 packages in 2s
+
+136 packages are looking for funding
+  run `npm fund` for details
+
+12 vulnerabilities (5 moderate, 4 high, 3 critical)
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+➜  NFT-Tutorial git:(trunk) ✗ npx hardhat compile     
+
+Nothing to compile
+➜  NFT-Tutorial git:(trunk) ✗ npm install dotenv
+
+up to date, audited 955 packages in 2s
+
+136 packages are looking for funding
+  run `npm fund` for details
+
+12 vulnerabilities (5 moderate, 4 high, 3 critical)
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+➜  NFT-Tutorial git:(trunk) ✗ npx hardhat run scripts/deploy.js --network goerli
+HardhatError: HH700: Artifact for contract "NFTee" not found. 
+    at Artifacts._handleWrongArtifactForContractName (/workspace/lw3.io_nft.erc-721/NFT-Tutorial/node_modules/hardhat/src/internal/artifacts.ts:702:11)
+    at Artifacts._getArtifactPathFromFiles (/workspace/lw3.io_nft.erc-721/NFT-Tutorial/node_modules/hardhat/src/internal/artifacts.ts:827:19)
+    at Artifacts._getArtifactPath (/workspace/lw3.io_nft.erc-721/NFT-Tutorial/node_modules/hardhat/src/internal/artifacts.ts:507:21)
+    at Artifacts.readArtifact (/workspace/lw3.io_nft.erc-721/NFT-Tutorial/node_modules/hardhat/src/internal/artifacts.ts:71:26)
+    at getContractFactory (/workspace/lw3.io_nft.erc-721/NFT-Tutorial/node_modules/@nomiclabs/hardhat-ethers/src/internal/helpers.ts:99:22)
+    at main (/workspace/lw3.io_nft.erc-721/NFT-Tutorial/scripts/deploy.js:9:23)
+➜  NFT-Tutorial git:(trunk) ✗ npx hardhat run scripts/deploy.js --network rinkeby
+Error HH100: Network rinkeby doesn't exist
+
+HardhatError: HH100: Network rinkeby doesn't exist
+    at new Environment (/workspace/lw3.io_nft.erc-721/NFT-Tutorial/node_modules/hardhat/src/internal/core/runtime-environment.ts:83:13)
+    at main (/workspace/lw3.io_nft.erc-721/NFT-Tutorial/node_modules/hardhat/src/internal/cli/cli.ts:262:17)
+➜  NFT-Tutorial git:(trunk) ✗ npx hardhat run scripts/deploy.js --network goerli 
+HardhatError: HH700: Artifact for contract "NFTee" not found. 
+    at Artifacts._handleWrongArtifactForContractName (/workspace/lw3.io_nft.erc-721/NFT-Tutorial/node_modules/hardhat/src/internal/artifacts.ts:702:11)
+    at Artifacts._getArtifactPathFromFiles (/workspace/lw3.io_nft.erc-721/NFT-Tutorial/node_modules/hardhat/src/internal/artifacts.ts:827:19)
+    at Artifacts._getArtifactPath (/workspace/lw3.io_nft.erc-721/NFT-Tutorial/node_modules/hardhat/src/internal/artifacts.ts:507:21)
+    at Artifacts.readArtifact (/workspace/lw3.io_nft.erc-721/NFT-Tutorial/node_modules/hardhat/src/internal/artifacts.ts:71:26)
+    at getContractFactory (/workspace/lw3.io_nft.erc-721/NFT-Tutorial/node_modules/@nomiclabs/hardhat-ethers/src/internal/helpers.ts:99:22)
+    at main (/workspace/lw3.io_nft.erc-721/NFT-Tutorial/scripts/deploy.js:9:23)
+➜  NFT-Tutorial git:(trunk) ✗ cd ..
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   NFT-Tutorial/hardhat.config.js
+        modified:   NFT-Tutorial/package.json
+        modified:   NFT-Tutorial/scripts/deploy.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ git add .
+➜  lw3.io_nft.erc-721 git:(trunk) ✗ git commit -m "NFTee"
+[trunk 4e2be56] NFTee
+ 3 files changed, 102 insertions(+), 29 deletions(-)
+➜  lw3.io_nft.erc-721 git:(trunk) git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+➜  lw3.io_nft.erc-721 git:(trunk) git push -f origin trunk
+
+
+
